@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.s1.gps_geolocator.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="geo"
+        android:text="view all!!!"
+        android:id="@+id/viewall"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="geo"
+        android:id="@+id/bayakarve"
+        android:text="Baya Karve "
+        android:layout_marginTop="42dp"
+        android:layout_below="@id/viewall"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/yashlaxmi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:text="Yash Laxmi"
+        android:layout_below="@id/bayakarve"
+        android:layout_centerHorizontal="true"
+        android:onClick="geo"/>
+
+    <Button
+        android:id="@+id/divekar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="58dp"
+        android:text=" Divekar "
+        android:layout_below="@id/yashlaxmi"
+        android:layout_alignRight="@id/viewall"
+        android:layout_alignEnd="@id/viewall"
+        android:onClick="geo"/>
+
+
+</RelativeLayout>
